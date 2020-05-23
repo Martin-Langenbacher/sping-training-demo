@@ -1,0 +1,15 @@
+package de.udemy.springdemo;
+
+public class MyApp {
+
+	public static void main(String[] args) {
+		
+		// crate the object
+		Coach theCoach = new TrackCoach();
+		
+		// use the object
+		System.out.println(theCoach.getDailyWorkout());
+
+	}
+
+}
